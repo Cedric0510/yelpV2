@@ -1,4 +1,4 @@
-version: "3.8" 
+version: '3.8' 
 
 services: 
   app:
@@ -12,10 +12,10 @@ services:
     depends_on:
       - mariadb
 
-  mysqldb: # alias réseau, 
+  mariadb: # alias réseau, 
     image: mariadb@sha256:310d29fbb58169dcddb384b0ff138edb081e2773d6e2eceb976b3668089f2f84
     ports:
-      - 3306:3306
+      - 4054:3306
     volumes: 
       - yelp-mariadb-data:/var/lib/mariadb
     environment: 
