@@ -4,7 +4,8 @@
   "description": "Welcome to the My Project API! This project aims to provide a robust and scalable API solution using modern web technologies. This README will guide you through the installation, usage, and development process of the API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
   },
   "keywords": [],
   "author": "",
